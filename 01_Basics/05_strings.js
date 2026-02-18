@@ -31,6 +31,6 @@ const url = "https://shradha.com/shradha%20suman"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('jha'))
 
 console.log(gameName.split('-'));
