@@ -26,6 +26,7 @@ console.log(anotherString);
 const newStringOne = "   shradha   "
 console.log(newStringOne);
 console.log(newStringOne.trim());
+console.log(newStringOne.concat('suman'))
 
 const url = "https://shradha.com/shradha%20suman"
 
