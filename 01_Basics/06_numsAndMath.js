@@ -26,6 +26,7 @@ const hundreds = 10000000
 //console.log(Math.floor(4.9));
 //console.log(Math.min(1, 2, 3, 4, 5));
 //console.log(Math.max(1, 2, 3, 4, 5));
+//console.log(Math.sqrt(16));
 
 //console.log(Math.random());
 //console.log(Math.floor(Math.random() * 10));
