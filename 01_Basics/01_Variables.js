@@ -8,7 +8,7 @@ let accountState ; // will return undefined
 
 //But we can change the var 
 accountEmail = "hello@gmail.com"
-accountPassword = "234"
+accountPassword = "2234"
 accountCity = "chennai"
 
 console.table([account_id, accountCity, accountEmail, accountPassword , accountState]);
