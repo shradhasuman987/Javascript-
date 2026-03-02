@@ -52,4 +52,32 @@ users[1].email
 //console.log(Object.values(tinderUser));
 //console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+//______How to destructured the Objects:______
+
+const course = {
+    coursename : "js in hindi" ,
+    price: "999" , 
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor: instructor} = course //change courseInstructor into instructor
+
+console.log(instructor);
+
+//______API(API means how to wrote the value which comes from backend______
+
+//_____How to wrote the JSON_____
+
+//{
+//   "name": "shradha" , 
+//   "coursename": "JS in Hindi" , 
+//    "price": "899"
+//}
+
+[
+    {},
+    {},
+    {}
+]
