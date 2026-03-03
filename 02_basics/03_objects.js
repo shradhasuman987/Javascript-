@@ -9,7 +9,7 @@ const JsUSer = {
     name: "Shradha",
     "full name" : "shradha suman" ,//can not access by .(dot)//
     [mySym]: "mykey1" , 
-    age: 18,
+    age: 19,
     location: "Hyderabad",
     email: "shradha@google.com",
     isLoggedIn: false ,
