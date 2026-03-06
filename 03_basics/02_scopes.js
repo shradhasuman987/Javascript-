@@ -7,12 +7,53 @@ if(true){
    console.log("INNER: ", a);
 }
 
-for (let i = 0; i < array.length; i++) {
-    const element = array[i]; 
-}
+//for (let i = 0; i < array.length; i++) {
+//    const element = array[i]; 
+//}
+
+
 
 
 //console.log(a);
 //console.log(b);
-console.log(c);
+//console.log(c);
 
+function one (){
+    const username = "shradha"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    //console.log(website);
+
+    two()
+}
+
+//one()
+
+if (true){
+    const username = "shradha"
+    if (username === "shradha") {
+        const website = " youtube"
+        console.log(username + website) ;
+    }
+    //console.log(website);
+}
+
+//console.log(username);
+
+
+//__________________Another Concept______________
+
+function addone(num){
+    return num + 1
+}
+
+console.log(addone(5))
+
+const addTwo = function(num){
+    return num  + 2
+}
+
+addTwo(5)
