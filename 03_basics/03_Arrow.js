@@ -47,7 +47,7 @@ const one = () => {
 // const addTwo  = (num1 , num2) =>  num1 + num2
 //const addTwo  = (num1 , num2) =>  (num1 + num2)
 
-//const addTwo  = (num1 , num2) =>  {username: "shradha"} // undefined beacause object have to be declared in paranthesis
+//const addTwo  = (num1 , num2) =>  {username: "shradha"} // Undefined beacause object have to be declared in paranthesis
 
 const addTwo  = (num1 , num2) =>  ({username: "shradha"}) // value will come 
 
